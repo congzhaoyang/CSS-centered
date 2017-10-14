@@ -1,0 +1,112 @@
+.parent {
+    border: 1px solid red;
+    max-width: 200px;
+}
+
+.child {
+    border: 1px solid blue;
+    max-width: 100px;
+}
+
+.parent2 {
+    text-align: center;
+}
+
+.parent3 {
+    display: inline-block;
+}
+
+.parent5 {
+    height: 100px;
+    position: relative;
+
+    .child5 {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.parent6 {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.parent7 {
+    height: 100px;
+    width: 200px;
+    display: table-cell;
+    vertical-align: middle;
+
+    .child7 {
+        width: 100px;
+    }
+}
+
+.parent8 {
+    width: 200px;
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle;
+
+    .child8 {
+        width: 100px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+.parent9 {
+    width: 200px;
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+    .child9 {
+        text-align: center;
+    }
+}
+
+.parent10 {
+    width: 200px;
+    height: 100px;
+    position: relative;
+
+    .child10 {
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.parent11 {
+    width: 200px;
+    height: 100px;
+    position: relative;
+
+    .child11 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+}
+
+.parent12 {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent13 {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
