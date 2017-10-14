@@ -6,6 +6,9 @@
   border: 1px solid blue;
   max-width: 100px; }
 
+.parent1 .child1 {
+  margin: 0 auto; }
+
 .parent2 {
   text-align: center; }
 
